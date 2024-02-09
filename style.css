@@ -1,0 +1,183 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+.heading {
+    color: red;
+    padding: 20px;
+    text-align: center;
+    --scroll: 5;
+    animation: parallax linear;
+    animation-timeline: scroll();
+
+}
+
+.infotext {
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+
+.text{
+    font-size: 1.2em;
+    color:white;
+
+}
+
+.text1{
+    font-size: 1.2em;
+    color:red;
+
+
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    margin: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px black;
+    transition: background-color 0.3s ease;
+
+
+
+}
+
+.backgroundImage {
+    background-image: url("/img/Party bedre.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.soffa {
+    background-image: url("/img/soffa\ mann\ bedre.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.police{
+    background-image: url("/img/police\ station.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.drug {
+    background-image: url("/img/drug.webp");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.engel{
+    background-image: url("/img/Enger\ veldig-04.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+
+.engel{
+    background-image: url("/img/Enger\ veldig-04.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.textbilde  {
+    background-image: url("/img/text-02.png ");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.walking {
+    background-image: url("/img/walking1-07.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.red {
+    background-image: url("/img/red.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.footer img {
+    width: 50%;
+}
+.footer a {
+    display: inline-block;
+    margin: 1.5rem;
+    padding: o.5rem 1rem;
+    margin-top: 10em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    outline: 2px solid red;
+    text-shadow: 0px 0px 5px black;
+
+    
+}
+
+
+.footer a:hover {
+    background-color: red; /* Change the background color on hover */
+}
+
+
+.wrapper {
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@keyframes parallax {
+    to {
+        transform: translateY(calc(var(--scroll) * 10%));
+    }
+}
+
+
+@keyframes parallaxHorizontal {
+    to {
+        transform: translateX(calc(var(--scroll) * 1%));
+    }
+}
